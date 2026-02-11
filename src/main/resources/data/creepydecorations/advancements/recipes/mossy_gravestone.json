@@ -1,0 +1,20 @@
+{
+  "parent": "creepydecorations:recipes/haunted_pumpkin",
+  "display": {
+    "icon": { "item": "creepydecorations:mossy_gravestone" },
+    "title": { "translate": "advancements.creepydecorations.mossy_gravestone.title" },
+    "description": { "translate": "advancements.creepydecorations.mossy_gravestone.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "creepydecorations:mossy_gravestone"
+      }
+    }
+  }
+}

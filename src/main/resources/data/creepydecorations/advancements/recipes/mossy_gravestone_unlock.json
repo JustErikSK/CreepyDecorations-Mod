@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:cobblestone"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["creepydecorations:mossy_gravestone"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "creepydecorations:recipes/haunted_pumpkin",
+  "display": {
+    "icon": { "item": "creepydecorations:emerging_hand" },
+    "title": { "translate": "advancements.creepydecorations.emerging_hand.title" },
+    "description": { "translate": "advancements.creepydecorations.emerging_hand.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "creepydecorations:emerging_hand"
+      }
+    }
+  }
+}

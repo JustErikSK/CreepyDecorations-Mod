@@ -6,5 +6,21 @@
   "block.creepydecorations.leg_shackle": "Leg Shackle",
   "block.creepydecorations.emerging_hand": "Emerging Hand",
 
+  "advancements.creepydecorations.haunted_pumpkin.title": "Still Glowing",
+  "advancements.creepydecorations.haunted_pumpkin.desc": "Craft a Haunted Pumpkin",
+  "advancements.creepydecorations.broken_doll.title": "Childhood Left Behind",
+  "advancements.creepydecorations.broken_doll.desc": "Craft a Broken Doll",
+  "advancements.creepydecorations.mossy_gravestone.title": "Overgrown Memories",
+  "advancements.creepydecorations.mossy_gravestone.desc": "Craft a Mossy Gravestone",
+  "advancements.creepydecorations.wooden_cross.title": "Faith in Decay",
+  "advancements.creepydecorations.wooden_cross.desc": "Craft an Old Wooden Cross",
+  "advancements.creepydecorations.leg_shackle.title": "No Escape",
+  "advancements.creepydecorations.leg_shackle.desc": "Craft a Leg Shackle",
+  "advancements.creepydecorations.emerging_hand.title": "The Grave Wasn’t Deep Enough",
+  "advancements.creepydecorations.emerging_hand.desc": "Craft an Emerging Hand",
+
+  "advancements.creepydecorations.root.title": "Creepy Decorations",
+  "advancements.creepydecorations.root.desc": "Unsettling decor for unsettling places.",
+
   "creativetab.creepydecorations.creepy_decorations_creative_tab": "Creepy Decorations"
 }

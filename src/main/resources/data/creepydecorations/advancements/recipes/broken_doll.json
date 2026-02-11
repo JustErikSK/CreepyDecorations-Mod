@@ -1,0 +1,20 @@
+{
+  "parent": "creepydecorations:recipes/haunted_pumpkin",
+  "display": {
+    "icon": { "item": "creepydecorations:broken_doll" },
+    "title": { "translate": "advancements.creepydecorations.broken_doll.title" },
+    "description": { "translate": "advancements.creepydecorations.broken_doll.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "creepydecorations:broken_doll"
+      }
+    }
+  }
+}

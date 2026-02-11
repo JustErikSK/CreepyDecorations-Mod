@@ -1,0 +1,20 @@
+{
+  "parent": "creepydecorations:recipes/haunted_pumpkin",
+  "display": {
+    "icon": { "item": "creepydecorations:wooden_cross" },
+    "title": { "translate": "advancements.creepydecorations.wooden_cross.title" },
+    "description": { "translate": "advancements.creepydecorations.wooden_cross.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "creepydecorations:wooden_cross"
+      }
+    }
+  }
+}
