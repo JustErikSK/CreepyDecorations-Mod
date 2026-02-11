@@ -18,17 +18,12 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
     mappings channel: mapping_channel, version: mapping_version
-
     copyIdeResources = true
-
     runs {
         configureEach {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             mods {
                 "${mod_id}" {
                     source sourceSets.main
@@ -51,7 +46,6 @@ minecraft {
 
         data {
             workingDirectory project.file('run-data')
-
             args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
         }
     }
@@ -60,7 +54,6 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-
 }
 
 dependencies {
@@ -76,7 +69,6 @@ tasks.named('processResources', ProcessResources).configure {
             mod_authors: mod_authors, mod_description: mod_description,
     ]
     inputs.properties replaceProperties
-
     filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
         expand replaceProperties + [project: project]
     }
