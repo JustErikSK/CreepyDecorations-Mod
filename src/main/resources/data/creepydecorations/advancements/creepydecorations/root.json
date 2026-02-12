@@ -6,7 +6,7 @@
     "background": "minecraft:textures/block/dirt.png",
     "frame": "task",
     "show_toast": false,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
