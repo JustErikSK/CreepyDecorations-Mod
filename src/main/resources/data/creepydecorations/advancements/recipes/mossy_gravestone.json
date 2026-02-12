@@ -1,0 +1,22 @@
+{
+  "parent": "creepydecorations:creepydecorations/root",
+  "display": {
+    "icon": { "item": "creepydecorations:mossy_gravestone" },
+    "title": { "translate": "advancements.creepydecorations.mossy_gravestone.title" },
+    "description": { "translate": "advancements.creepydecorations.mossy_gravestone.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["creepydecorations:mossy_gravestone"] }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "tags": ["minecraft:wool"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["creepydecorations:broken_doll"]
+  }
+}

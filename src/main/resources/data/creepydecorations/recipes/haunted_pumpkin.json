@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ACA",
+    "BDB",
+    "ACA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:pumpkin"
+    },
+    "B": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "C": {
+      "item": "minecraft:soul_torch"
+    },
+    "D": {
+      "item": "minecraft:soul_lantern"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "creepydecorations:haunted_pumpkin"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A A",
+    " B ",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "creepydecorations:leg_shackle"
+  }
+}

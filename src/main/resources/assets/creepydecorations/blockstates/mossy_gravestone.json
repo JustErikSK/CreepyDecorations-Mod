@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "creepydecorations:block/mossy_gravestone"
+    },
+    "facing=south": {
+      "model": "creepydecorations:block/mossy_gravestone",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "creepydecorations:block/mossy_gravestone",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "creepydecorations:block/mossy_gravestone",
+      "y": 270
+    }
+  }
+}

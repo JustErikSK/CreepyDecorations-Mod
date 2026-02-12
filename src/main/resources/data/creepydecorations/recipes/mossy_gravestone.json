@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "CDC",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stone_brick_wall"
+    },
+    "B": {
+      "item": "minecraft:moss_carpet"
+    },
+    "C": {
+      "item": "minecraft:stone"
+    },
+    "D": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "creepydecorations:mossy_gravestone"
+  }
+}

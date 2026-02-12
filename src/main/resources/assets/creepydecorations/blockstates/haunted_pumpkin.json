@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "creepydecorations:block/haunted_pumpkin"
+    },
+    "facing=south": {
+      "model": "creepydecorations:block/haunted_pumpkin",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "creepydecorations:block/haunted_pumpkin",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "creepydecorations:block/haunted_pumpkin",
+      "y": 270
+    }
+  }
+}

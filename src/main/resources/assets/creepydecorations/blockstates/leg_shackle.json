@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "creepydecorations:block/leg_shackle"
+    },
+    "facing=south": {
+      "model": "creepydecorations:block/leg_shackle",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "creepydecorations:block/leg_shackle",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "creepydecorations:block/leg_shackle",
+      "y": 270
+    }
+  }
+}

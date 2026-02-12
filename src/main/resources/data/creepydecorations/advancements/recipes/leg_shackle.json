@@ -1,0 +1,22 @@
+{
+  "parent": "creepydecorations:creepydecorations/root",
+  "display": {
+    "icon": { "item": "creepydecorations:leg_shackle" },
+    "title": { "translate": "advancements.creepydecorations.leg_shackle.title" },
+    "description": { "translate": "advancements.creepydecorations.leg_shackle.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["creepydecorations:leg_shackle"] }
+        ]
+      }
+    }
+  }
+}

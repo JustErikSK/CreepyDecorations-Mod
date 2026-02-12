@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "item": "creepydecorations:haunted_pumpkin" },
+    "title": { "translate": "advancements.creepydecorations.root.title" },
+    "description": { "translate": "advancements.creepydecorations.root.desc" },
+    "background": "minecraft:textures/block/dirt.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": { "trigger": "minecraft:tick" }
+  }
+}

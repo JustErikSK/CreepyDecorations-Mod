@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "creepydecorations:block/wooden_cross"
+    },
+    "facing=south": {
+      "model": "creepydecorations:block/wooden_cross",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "creepydecorations:block/wooden_cross",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "creepydecorations:block/wooden_cross",
+      "y": 270
+    }
+  }
+}

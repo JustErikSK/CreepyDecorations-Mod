@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:white_wool"
+    },
+    "C": {
+      "item": "minecraft:red_dye"
+    },
+    "D": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "count": 1,
+    "item": "creepydecorations:broken_doll"
+  }
+}

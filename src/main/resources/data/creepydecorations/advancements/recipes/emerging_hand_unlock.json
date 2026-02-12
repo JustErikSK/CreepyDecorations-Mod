@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rotten_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:rotten_flesh"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["creepydecorations:emerging_hand"]
+  }
+}

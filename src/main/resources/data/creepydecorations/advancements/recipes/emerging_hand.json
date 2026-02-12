@@ -1,0 +1,22 @@
+{
+  "parent": "creepydecorations:creepydecorations/root",
+  "display": {
+    "icon": { "item": "creepydecorations:emerging_hand" },
+    "title": { "translate": "advancements.creepydecorations.emerging_hand.title" },
+    "description": { "translate": "advancements.creepydecorations.emerging_hand.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["creepydecorations:emerging_hand"] }
+        ]
+      }
+    }
+  }
+}

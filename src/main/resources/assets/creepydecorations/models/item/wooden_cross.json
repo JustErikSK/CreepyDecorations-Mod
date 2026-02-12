@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "creepydecorations:block/wooden_cross"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "creepydecorations:item/wooden_cross_gui"
+    },
+    "ground": {
+      "parent": "creepydecorations:block/wooden_cross"
+    },
+    "fixed": {
+      "parent": "creepydecorations:block/wooden_cross"
+    }
+  }
+}

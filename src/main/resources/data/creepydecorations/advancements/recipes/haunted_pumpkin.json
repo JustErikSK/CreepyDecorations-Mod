@@ -1,0 +1,22 @@
+{
+  "parent": "creepydecorations:creepydecorations/root",
+  "display": {
+    "icon": { "item": "creepydecorations:haunted_pumpkin" },
+    "title": { "translate": "advancements.creepydecorations.haunted_pumpkin.title" },
+    "description": { "translate": "advancements.creepydecorations.haunted_pumpkin.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["creepydecorations:haunted_pumpkin"] }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "creepydecorations:creepydecorations/root",
+  "display": {
+    "icon": { "item": "creepydecorations:broken_doll" },
+    "title": { "translate": "advancements.creepydecorations.broken_doll.title" },
+    "description": { "translate": "advancements.creepydecorations.broken_doll.desc" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["creepydecorations:broken_doll"] }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "creepydecorations:item/emerging_hand_gui"
+  }
+}

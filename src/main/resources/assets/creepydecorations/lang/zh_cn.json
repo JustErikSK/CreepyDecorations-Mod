@@ -1,0 +1,26 @@
+{
+  "block.creepydecorations.haunted_pumpkin": "满面愁容的南瓜",
+  "block.creepydecorations.broken_doll": "破损的娃娃",
+  "block.creepydecorations.mossy_gravestone": "长满青苔的墓碑",
+  "block.creepydecorations.wooden_cross": "古老的十字架",
+  "block.creepydecorations.leg_shackle": "腿部锁链",
+  "block.creepydecorations.emerging_hand": "浮现的手",
+
+  "advancements.creepydecorations.haunted_pumpkin.title": "Still Glowing",
+  "advancements.creepydecorations.haunted_pumpkin.desc": "Craft a Haunted Pumpkin",
+  "advancements.creepydecorations.broken_doll.title": "Childhood Left Behind",
+  "advancements.creepydecorations.broken_doll.desc": "Craft a Broken Doll",
+  "advancements.creepydecorations.mossy_gravestone.title": "Overgrown Memories",
+  "advancements.creepydecorations.mossy_gravestone.desc": "Craft a Mossy Gravestone",
+  "advancements.creepydecorations.wooden_cross.title": "Faith in Decay",
+  "advancements.creepydecorations.wooden_cross.desc": "Craft an Old Wooden Cross",
+  "advancements.creepydecorations.leg_shackle.title": "No Escape",
+  "advancements.creepydecorations.leg_shackle.desc": "Craft a Leg Shackle",
+  "advancements.creepydecorations.emerging_hand.title": "The Grave Wasn’t Deep Enough",
+  "advancements.creepydecorations.emerging_hand.desc": "Craft an Emerging Hand",
+
+  "advancements.creepydecorations.root.title": "骇人的装饰",
+  "advancements.creepydecorations.root.desc": "Unsettling decor for unsettling places.",
+
+  "itemGroup.creepydecorations": "骇人的装饰"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "creepydecorations:item/broken_doll_gui"
+  }
+}
