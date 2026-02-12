@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": { "item": "minecraft:bone" },
+    "icon": { "item": "creepydecorations:haunted_pumpkin" },
     "title": { "translate": "advancements.creepydecorations.root.title" },
     "description": { "translate": "advancements.creepydecorations.root.desc" },
     "background": "minecraft:textures/block/dirt.png",

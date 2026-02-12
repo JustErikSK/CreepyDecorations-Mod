@@ -1,5 +1,5 @@
 {
-  "parent": "creepydecorations:recipes/haunted_pumpkin",
+  "parent": "creepydecorations:creepydecorations/root",
   "display": {
     "icon": { "item": "creepydecorations:leg_shackle" },
     "title": { "translate": "advancements.creepydecorations.leg_shackle.title" },
